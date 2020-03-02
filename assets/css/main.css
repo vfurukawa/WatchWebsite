@@ -84,9 +84,22 @@ header{
 #top-jumbo .btn-round{
 	background:#3f97ff;
 }
+
 .navbar-light .navbar-nav .nav-link:last-child{
 	background:#ff6622;
 	color:#FFFFFF;
 }
+
+
 /*=====  End of Top Banner  ======*/
 
+/*=========================================
+*            Product InfoGraph            *
+=========================================*/
+
+#info-graph{
+	width:100%;
+	text-align: center;
+	}
+
+/*=====  End of Product InfoGraph  ======*/
