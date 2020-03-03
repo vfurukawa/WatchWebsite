@@ -100,6 +100,35 @@ header{
 #info-graph{
 	width:100%;
 	text-align: center;
-	}
+}
 
+#apple-watch-2{
+	
+}
+
+#info-graph .container i{
+	color:#FFFFFF;
+	background:#0084ff;
+	border-radius:10px;
+}
+.container #top-left{   
+	
+	     
+}
+.container #top-right{
+ 	
+
+}
+
+.container #bottom-left{
+	
+	
+}    
+
+.container #bottom-right{
+	
+	
+}
 /*=====  End of Product InfoGraph  ======*/
+
+
