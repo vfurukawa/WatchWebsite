@@ -1,28 +1,26 @@
-HTML:; 
+1t. you'll want a class to style each of those 'buttons' so it'll be more like:
 
-Add a scrolling wrapper class to define exactly what should be scrolling and where:
-<section class="year-row fluid" id="t1960">
-			<div class="clearfix">
-				<div class="scrolling-wrapper">
-					<img  class="year-tile" src="assets/images/dark-tiles/1960.png">
-					<img src="assets/images/dark-tiles/1960x1.png">
-					<img src="assets/images/dark-tiles/1960x2.png">
-					<img src="assets/images/dark-tiles/1960x3.png">
-					<img src="assets/images/dark-tiles/1960x4.png">
-					<img src="assets/images/dark-tiles/1960x5.png">
-				</div>
-			</div>
-		</section>
-    
-    
-    CSS:
-   TEll the scrolling wrapper on which axis to scroll and not to wrap
-    .scrolling-wrapper{
-      overflow-x: scroll;
-      overflow-y: hidden;
-      white-space: nowrap;
+<div id="top-left"><div class="info-button"><i class="fas fa-asterisk"></i></div></div>
+
+.info-button {
+    background: #0084ff;
+    width: 24px;
+    height: 24px;
+    border-radius: 25px;
+    padding-top: 4px;
+}
+
+
+Each of the outer divs need a position
+.container #top-left {
+    position: relative;
+}
+
+Each of the icons need their own spacing. Play around with them:
+#top-left i{
+position: absolute;
+    top: -113px;
+    left: 33%;
     }
-    Explicitly state that the images in here are inline-block
-    .scrolling-wrapper .img {
-        display: inline-block;
-      }
+    
+    Also: turn off the autoplay on that video.  It's runnin even if no one has selected the modal and I about died of surprise
